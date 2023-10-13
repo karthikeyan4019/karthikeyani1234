@@ -1,0 +1,74 @@
+body
+{
+    margin: 0px;
+    background-color: black;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Bree Serif', serif;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Signika', sans-serif;
+}
+.header
+{
+    background-color: #bdc987;
+    height: 80px;
+    text-align: center;
+    position:sticky;
+    top:0px;
+}
+.title
+{
+    margin: 0px;
+}
+.house
+{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0px 10px;
+    /* column-gap:19px; */
+}
+.item1
+{
+    width: 687px;
+    margin: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.item-text
+{
+    margin: 15px 30px;
+    color: white;
+}
+.footer
+{
+    text-align: center;
+    background-color: bisque;
+    height:100px;
+}
+footer
+{
+   position: sticky;
+   bottom: 0px;
+}
+
+/* media queries */
+
+@media(max-width:1500px)
+{
+    .item1
+{
+    width: 687px;
+
+}
+}
+
+@media(max-width:1480px)
+{
+    .item1
+{
+    width:100%;
+
+}
+}
+
